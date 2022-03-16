@@ -1,0 +1,201 @@
+* {
+	font-family: 'Fredoka', sans-serif;
+	font-size: 12pt;
+}
+
+body {
+	margin: 0;
+	background-color: #f1f1f1;
+
+
+}
+
+
+#header {
+	width: 100%;
+	background-color: rgb(206, 18, 18);
+    position: fixed;
+
+}
+
+#header .inhalt {
+	overflow: auto;
+	padding: 0;
+}
+
+.navigation {
+	list-style: none;
+	padding: 0;
+	overflow: visible;
+	margin: 0;
+}
+
+.navigation li {
+	float: left;
+}
+
+.navigation li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px 18px;
+	text-decoration: none;
+	font-size: 15pt;
+}
+
+.navigation li a:hover {
+	background-color: #ffffff;
+	color: rgb(206, 18, 18);
+}
+
+.inhalt {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#hauptteil .inhalt {
+    width: 940px;
+    padding: 20px 30px 60px 30px;
+
+}
+
+#hauptteil .inhalt {
+    color: #ffffff;
+	line-height: 22px;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+
+}
+
+#hauptteil h1 {
+	font-size: 22pt;
+}
+
+#hauptteil h2 {
+	font-size: 18pt;
+}
+
+#hauptteil h3 {
+	font-size: 16pt;
+}
+
+.normal{
+    color: #000000;
+    background-image: url(../pictures/vlad-tchompalov-axTvnbgRlAk-unsplash.jpg);
+    background-size: 880px 520px;
+    border-radius: 2rem;
+    width: 840px;
+    height: 500px;
+    padding: 10px;
+    padding: 10px 20px;
+    margin: 0 50px 0 50px;
+
+
+}
+#tesla{
+    margin: 50px 0 0 0;
+
+}
+.car{
+    background-color: rgb(105, 102, 102);
+    padding: 10px 20px;
+    margin: 0 50px 0 50px;
+    border-radius: 2rem;
+    height: 500px;
+    width: 840px;
+}
+
+.car-left{
+    width: 350px;
+	float: left;
+	text-align: center;
+}
+
+.car-left img{
+    width: 350px;
+    border-radius: 1rem;
+}
+
+.car-right{
+    width: 480px;
+    float: left;
+    margin: 0;
+    padding-left: 10px;
+
+}
+.car-right p{
+    padding-top: 0px;
+}
+.car-right a{
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 2rem;
+    background-color: #ffffff;
+    color: #000000;
+    margin-top: 30px;
+}
+.car-right table{
+    border: 1px solid;
+    border-color: #000000;
+}
+
+#model3{
+    scroll-snap-align: start;
+    scroll-margin: 0;
+    padding-top: 30px;
+}
+
+#modely{
+    scroll-snap-align: start;
+    scroll-margin: 0;
+    padding-top: 30px;
+}
+
+#modelx{
+    scroll-snap-align: start;
+    scroll-margin: 0;
+    padding-top: 30px;
+}
+
+#models{
+    scroll-snap-align: start;
+    scroll-margin: 0;
+    padding-top: 30px;
+}
+
+#imagefilm{
+    margin: 30px 50px 0 50px;
+    width: 840px;
+    height: 510px;
+    background-color: #ad1818;
+    border-radius: 2rem;
+    color: #ffffff;
+}
+
+#imagefilm h3{
+    padding: 0 50px;
+}
+
+#imagefilm iframe{
+    width: 840px;
+    height: 450px;
+    border-radius: 2rem;
+
+}
+
+#karte iframe {
+	width: 100%;
+	height: 600px;
+}
+
+#footer{
+	overflow: auto;
+	margin: 0;
+	padding: 0;
+    background-color: rgb(105, 102, 102);
+    color: #ffffff;
+}
+
+#footer a{
+    color: #ffffff;
+}
