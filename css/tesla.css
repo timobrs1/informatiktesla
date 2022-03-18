@@ -6,16 +6,12 @@
 body {
 	margin: 0;
 	background-color: #f1f1f1;
-
-
 }
-
 
 #header {
 	width: 100%;
 	background-color: rgb(206, 18, 18);
     position: fixed;
-
 }
 
 #header .inhalt {
@@ -56,7 +52,6 @@ body {
 #hauptteil .inhalt {
     width: 940px;
     padding: 20px 30px 60px 30px;
-
 }
 
 #hauptteil .inhalt {
@@ -64,11 +59,10 @@ body {
 	line-height: 22px;
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
-
 }
 
 #hauptteil h1 {
-	font-size: 22pt;
+	font-size: 26pt;
 }
 
 #hauptteil h2 {
@@ -89,12 +83,10 @@ body {
     padding: 10px;
     padding: 10px 20px;
     margin: 0 50px 0 50px;
-
-
 }
+
 #tesla{
     margin: 50px 0 0 0;
-
 }
 .car{
     background-color: rgb(105, 102, 102);
@@ -109,6 +101,7 @@ body {
     width: 350px;
 	float: left;
 	text-align: center;
+    height: 400px;
 }
 
 .car-left img{
@@ -121,13 +114,15 @@ body {
     float: left;
     margin: 0;
     padding-left: 10px;
-
+    height: 230px;
 }
+
 .car-right p{
     padding-top: 0px;
 }
 
 .car-left table{
+    margin-top: 25px;
     border: 1px solid;
     border-color: #0000000;
     text-align: left;
@@ -136,6 +131,7 @@ body {
     color: #000000;
     padding: 10px;
 }
+
 .car-left table tr td{
     color: #000000;
 }
@@ -164,18 +160,27 @@ body {
     padding-top: 30px;
 }
 
+.button {
+    float: left;
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
 .button a{
     padding: 20px;
     text-decoration: none;
     border-radius: 2rem;
-    background-color: #ffffff;
+    background-color: #1aa7e0;
     color: #000000;
-    margin-top: 30px;
+
+    font-weight: bold;
 
 }
+
 #imagefilm{
     margin: 30px 50px 0 50px;
-    width: 840px;
+    width: 880px;
     height: 510px;
     background-color: #ad1818;
     border-radius: 2rem;
@@ -185,12 +190,13 @@ body {
 #imagefilm h3{
     padding: 0 50px;
 }
+
 #imagefilm iframe{
-    width: 840px;
+    width: 880px;
     height: 450px;
     border-radius: 2rem;
-
 }
+
 #footer{
 	overflow: auto;
 	margin: 0;
