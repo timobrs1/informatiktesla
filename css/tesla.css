@@ -126,17 +126,17 @@ body {
 .car-right p{
     padding-top: 0px;
 }
-.car-right a{
-    padding: 20px;
-    text-decoration: none;
-    border-radius: 2rem;
-    background-color: #ffffff;
-    color: #000000;
-    margin-top: 30px;
-}
-.car-right table{
+
+.car-left table{
     border: 1px solid;
     border-color: #000000;
+    text-align: left;
+    border-radius: 2rem;
+    background-color: #ffffff;
+    color; #000000;
+}
+.car-left table tr td{
+    color: #000000;
 }
 
 #model3{
@@ -163,6 +163,15 @@ body {
     padding-top: 30px;
 }
 
+.button a{
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 2rem;
+    background-color: #ffffff;
+    color: #000000;
+    margin-top: 30px;
+
+}
 #imagefilm{
     margin: 30px 50px 0 50px;
     width: 840px;
