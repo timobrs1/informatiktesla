@@ -126,7 +126,7 @@ body {
     border: 1px solid;
     border-color: #0000000;
     text-align: left;
-    border-radius: 2rem;
+    border-radius: 1rem;
     background-color: #F2F2F7;
     color: #000000;
     padding: 10px;
@@ -173,9 +173,11 @@ body {
     border-radius: 2rem;
     background-color: #1aa7e0;
     color: #000000;
-
     font-weight: bold;
-
+}
+.button a:hover{
+    background-color: #000000;
+    color: #1aa7e0;
 }
 
 #imagefilm{
